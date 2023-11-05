@@ -225,5 +225,5 @@ getch();
 ### OUTPUT:
 ![273498225-d30882de-3a42-4954-80bf-d95bcd798e00](https://github.com/poojaanbu0/OS-EX.12-IMPLEMENTATION-OF-FILE-ALLOCATION-METHODS/assets/119390329/5926ed2f-c977-450b-9835-b6f6de482e03)
 
-### RESULT;
+### RESULT:
 Thus, file management using Indexed list is implemented successfully.
