@@ -2,10 +2,10 @@
 
 ## SEQUENTIAL ALLOCATION
 
-## AIM:
+### AIM:
 To implement file management using sequential list.
 
-## ALGORITHM:
+### ALGORITHM:
 
 Step 1: Start the program.
 
@@ -23,7 +23,7 @@ Step 7: Analyses all the three memory management techniques and display the best
 
 Step 8: Stop the program.
 
-## PROGRAM:
+### PROGRAM:
 ```
 #include < stdio.h>
 #include<conio.h>
@@ -63,17 +63,17 @@ getch();
 }
 ```
 
-## OUTPUT:
+### OUTPUT:
 ![273498151-626907ee-ba39-456e-968e-e4335d1ffe94](https://github.com/poojaanbu0/OS-EX.12-IMPLEMENTATION-OF-FILE-ALLOCATION-METHODS/assets/119390329/123c3ba7-9a88-4743-bead-55581215e17f)
 
-## RESULT:
+### RESULT:
 Thus, file management using sequential list is implemented successfully.
 
 ## LINKED ALLOCATION
-## AIM:
+### AIM:
 To implement file management using Linked list.
 
-## DESCRIPTION:
+### DESCRIPTION:
 
 ➢Linked allocation solves all problems of contiguous allocation. With linked allocation, each file is a linked list of disk blocks; the disk blocks may be scattered anywhere on the disk. The directory contains a pointer to the first and last blocks of the file.
 
@@ -89,7 +89,7 @@ To implement file management using Linked list.
 
 ➢ Consequently, it is never necessary to compact diskspace.
 
-## PROGRAM:
+### PROGRAM:
 ```
 #include <stdio.h>
 #include <conio.h>
@@ -139,17 +139,17 @@ return 0;
 }
 ```
 
-## OUTPUT:
+### OUTPUT:
 ![273498199-ee71d8bd-f69d-4574-bd1b-ee428a0705cd](https://github.com/poojaanbu0/OS-EX.12-IMPLEMENTATION-OF-FILE-ALLOCATION-METHODS/assets/119390329/6f86903d-7a02-4526-9c73-64dfdeac0cd6)
 
-## RESULT:
+### RESULT:
 Thus, file management using Linked list is implemented successfully.
 
 ## INDEXED ALLOCATION
 ### AIM:
 To implement file management using Indexed list.
 
-## DESCRIPTION:
+### DESCRIPTION:
 
 ➢ Indexed allocation brings all the block pointers together into onelocation: called the index block.
 
@@ -167,7 +167,7 @@ To implement file management using Indexed list.
 
 Multilevel index: A variant of the linked representation is to use a first level index block to point to a set of second-level index blocks, which in turn point to the file blocks. To access a block, the operating system uses the first-level index to find a second-level index block, and that block to find the desired data block. This approach could be continued to a third or fourth level, depending on the desired maximum file size.
 
-## PROGRAM:
+### PROGRAM:
 ```
 #include<stdio.h>
 #include<conio.h>
@@ -222,8 +222,8 @@ getch();
 }
 ```
 
-## OUTPUT:
+### OUTPUT:
 ![273498225-d30882de-3a42-4954-80bf-d95bcd798e00](https://github.com/poojaanbu0/OS-EX.12-IMPLEMENTATION-OF-FILE-ALLOCATION-METHODS/assets/119390329/5926ed2f-c977-450b-9835-b6f6de482e03)
 
-## RESULT;
+### RESULT;
 Thus, file management using Indexed list is implemented successfully.
