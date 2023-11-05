@@ -1,12 +1,10 @@
 # EX.12-IMPLEMENTATION-OF-FILE-ALLOCATION-METHODS
-
 ## SEQUENTIAL ALLOCATION
 
 ### AIM:
 To implement file management using sequential list.
 
 ### ALGORITHM:
-
 Step 1: Start the program.
 
 Step 2: Get the number of memory partition and their sizes.
